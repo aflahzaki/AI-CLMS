@@ -251,6 +251,23 @@ python scripts/test_integration.py
 | Frontend Developer | Tim AI Intern Telkom Univerisity |
 | AI/ML Engineer | Tim AI Intern Telkom Univerisity |
 
+## Isi Colection
+📁 CLMS - Contract Lifecycle Management System
+├── 📁 Health
+│   └── GET  /health
+├── 📁 Templates (ChromaDB)
+│   ├── GET  /api/templates
+│   └── GET  /api/templates/{name}
+├── 📁 DOCX Templates
+│   ├── GET  /api/templates/docx
+│   ├── GET  /api/templates/docx/{id}/html
+│   ├── POST /api/templates/docx/upload (file upload)
+│   └── DEL  /api/templates/docx/{id}
+├── 📁 Draft Generation
+│   └── POST /api/draft (dengan contoh variabel)
+└── 📁 Export
+    └── POST /api/export/docx (dengan contoh HTML)
+
 ## Lisensi
 
 Proyek internal - Hak cipta dilindungi.
