@@ -252,6 +252,7 @@ python scripts/test_integration.py
 | AI/ML Engineer | Tim AI Intern Telkom Univerisity |
 
 ## Isi Colection
+```
 📁 CLMS - Contract Lifecycle Management System
 ├── 📁 Health
 │   └── GET  /health
@@ -267,6 +268,7 @@ python scripts/test_integration.py
 │   └── POST /api/draft (dengan contoh variabel)
 └── 📁 Export
     └── POST /api/export/docx (dengan contoh HTML)
+```
 
 ## Lisensi
 
