@@ -94,13 +94,9 @@ cd PengembanganAI-CLMS
 # Setup backend
 cd backend
 pip install -r requirements.txt
-py -3.12 -m venv venv
-
 
 # Copy environment config
 cp .env.example .env
-.\venv\Scripts\activate
-
 
 # Ingest template data ke ChromaDB
 python scripts/ingest_templates.py
@@ -246,10 +242,10 @@ python scripts/test_integration.py
 
 | Role | Nama |
 |------|------|
-| Project Lead | Tim AI Intern Telkom Univerisity |
-| Backend Developer | Tim AI Intern Telkom Univerisity |
-| Frontend Developer | Tim AI Intern Telkom Univerisity |
-| AI/ML Engineer | Tim AI Intern Telkom Univerisity |
+| Project Lead | - |
+| Backend Developer | - |
+| Frontend Developer | - |
+| AI/ML Engineer | - |
 
 ## Isi Colection
 ```
