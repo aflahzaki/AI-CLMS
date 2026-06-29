@@ -246,10 +246,10 @@ python scripts/test_integration.py
 
 | Role | Nama |
 |------|------|
-| Project Lead | - |
-| Backend Developer | - |
-| Frontend Developer | - |
-| AI/ML Engineer | - |
+| Project Lead | Tim AI Intern Telkom Univerisity |
+| Backend Developer | Tim AI Intern Telkom Univerisity |
+| Frontend Developer | Tim AI Intern Telkom Univerisity |
+| AI/ML Engineer | Tim AI Intern Telkom Univerisity |
 
 ## Lisensi
 
