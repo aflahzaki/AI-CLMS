@@ -68,16 +68,15 @@ async def list_templates(
 
     return templates
 
-
-@router.get("/{name}", response_model=TemplateInfo)
+@router.get("/{slug}", response_model=TemplateInfo)
 async def get_template(
-    name: str,
+    slug: str,
     retriever: RetrieverService = Depends(get_retriever_service),
 ) -> TemplateInfo:
     """Get details for a specific template.
 
     Args:
-        name: Template name to look up.
+        slug: URL-friendly template identifier (e.g., khs-material-ketenagalistrikan).
 
     Returns:
         TemplateInfo with full template details.
@@ -85,7 +84,8 @@ async def get_template(
     Raises:
         HTTPException: If template is not found.
     """
-    clauses = retriever.get_all_clauses_for_template(name)
+    # Lookup nama asli dari slug
+    template_name = TEMPLATE_SLUG_MAP.get(slug)
 
     if not clauses:
         raise HTTPException(
