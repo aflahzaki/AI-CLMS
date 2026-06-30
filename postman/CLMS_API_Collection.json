@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "clms-api-collection-2024",
+		"_postman_id": "clms-api-collection-2026",
 		"name": "CLMS - Contract Lifecycle Management System",
 		"description": "Koleksi API untuk Contract Lifecycle Management System (CLMS). Sistem ini menyediakan fitur manajemen template kontrak, pembuatan draft otomatis menggunakan AI, dan ekspor dokumen ke format DOCX.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
@@ -70,7 +70,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/templates/KHS Material Ketenagalistrikan",
+							"raw": "{{base_url}}/api/templates/khs-material-ketenagalistrikan",
 							"host": [
 								"{{base_url}}"
 							],
