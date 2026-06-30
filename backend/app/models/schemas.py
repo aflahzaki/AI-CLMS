@@ -30,7 +30,8 @@ class ClauseSchema(BaseModel):
 class TemplateInfo(BaseModel):
     """Schema for template information response."""
 
-    name: str = Field(..., description="Template name")
+     name: str = Field(..., description="Template name")
+    slug: str = Field("", description="URL-friendly identifier (no spaces)")
     description: str = Field("", description="Template description")
     clauses_count: int = Field(0, description="Number of clauses in the template")
     variables: List[VariableSchema] = Field(
