@@ -44,7 +44,7 @@ class DraftRequest(BaseModel):
     """Request schema for contract draft generation."""
 
     template_name: str = Field(
-        "KHS Material Ketenagalistrikan",
+        "khs-material-ketenagalistrikan",
         description="Name of the contract template to use",
     )
     variables: Dict[str, str] = Field(
